@@ -2,28 +2,28 @@
   "diwako-cpred-additions": {
     "settings": {
       "hit-animations": {
-        "name": "Show hit or miss animations",
-        "hint": "Requires Sequencer and JB2A animations! Enable or disable hit or miss animations. Disable if you do not have the JB2A patreon module or Sequencer loaded!"
+        "name": "Afficher les animations de tir",
+        "hint": "Nécéssite Sequencer et JB2A animations! active ou désactive les animations de réussite ou d'échec du tir. Désactivez si vous n'avez pas le module JB2A de Patreon ou Sequencer activés!"
       },
       "hit-sounds": {
-        "name": "Play sounds on hit",
-        "hint": "Requires Sequencer! Play sounds when target is hit by a ranged attack"
+        "name": "Jouer des sons au toucher",
+        "hint": "Nécéssite Sequencer! Jouez des sons quand une cible est touchée par un tir"
       },
       "sound-select": {
-        "name": "Select hit sounds",
-        "hint": "Select the sounds you want to be played when a token lands a hit on another"
+        "name": "Selectionnez les bruits de tir",
+        "hint": "Selectionnez les sons que vous voulez jouer quand un tir touche une cible"
       },
       "submit": "Submit",
       "add-sound": "Add sound"
     },
     "message": {
       "missed": {
-        "normal": "<b>{attacker} <span class=\"fg-red\">missed</span> {target}</b> by {dv-diff+1} (DV: {dv})!",
-        "evade": "<b>{attacker} <span class=\"fg-red\">missed</span> {target}</b> by {dv-diff+1} according to the ranged DV ({dv})! Roll damage IF they have declared that they are dodging AND your roll has beat their evasion roll!"
+        "normal": "<b>{attacker} <span class=\"fg-red\">rate</span> {target}</b> de {dv-diff+1} (DV: {dv})!",
+        "evade": "<b>{attacker} <span class=\"fg-red\">rate</span> {target}</b> de {dv-diff+1} selon le SD à distance ({dv})! Jetez les dégâts SI ils ont déclaré une esquive ET que leur jet est inférieur à celui de votre tir!"
       },
       "hit": {
-        "normal": "<b>{attacker} <span class=\"fg-green\">hits</span> {target}</b> (DV: {dv}, {dv-diff} over)! Roll Damage!",
-        "evade": "<b>{attacker} <span class=\"fg-green\">beats the ranged DV</span> </b>({dv}, {dv-diff} over)<b> to hit {target}</b> by {dv-diff-1}! Roll damage IF they have NOT declared that they are dodging OR your roll has beat their evasion roll"
+        "normal": "<b>{attacker} <span class=\"fg-green\">touche</span> {target}</b> (DV: {dv}, {dv-diff} over)! Jetez les Dégâts!",
+        "evade": "<b>{attacker} <span class=\"fg-green\">bat le SD à distance</span> </b>({dv}, {dv-diff} over)<b> pour toucher {target}</b> de {dv-diff-1}! Jetez les dégâts SI ils n'ont PAS déclaré d'esquive OU votre jet a dépassé leur jet d'esquive"
       }
     }
   }
